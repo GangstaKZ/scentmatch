@@ -4,7 +4,7 @@ Flutter MVP персонального парфюмерного ассистен
 
 ## Быстрый запуск
 
-Установите Flutter 3.24.5 или совместимую более новую версию. Для Android нужны Android SDK и JDK, для iOS — macOS и Xcode.
+Установите Flutter 3.47.7 (версия CI) или совместимую более новую версию. После миграции на `CardThemeData` минимальная версия — Flutter 3.32; старый локальный SDK 3.24.5 для текущего кода не подходит. Для Android нужны Android SDK и JDK, для iOS — macOS и Xcode.
 
 ```sh
 flutter pub get

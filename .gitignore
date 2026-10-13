@@ -18,3 +18,4 @@ functions/.env.*
 *.iml
 .idea/
 flutter_*.log
+.local-tooling/

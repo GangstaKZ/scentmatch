@@ -2,7 +2,8 @@
 setlocal
 cd /d "%~dp0"
 for %%I in ("..\..\work") do set "SCENTMATCH_WORK=%%~fI"
-set "SCENTMATCH_FLUTTER=%SCENTMATCH_WORK%\sdk\flutter"
+rem The migrated theme requires Flutter 3.32+; the bundled 3.24 SDK is too old.
+set "SCENTMATCH_FLUTTER=C:\src\flutter"
 set "PATH=C:\Program Files\Git\cmd;%SystemRoot%\System32;%PATH%"
 rem Trust only this Codex-created SDK for this process and its children.
 rem The user's global Git configuration remains unchanged.
@@ -11,7 +12,7 @@ set "GIT_CONFIG_KEY_0=safe.directory"
 set "GIT_CONFIG_VALUE_0=%SCENTMATCH_FLUTTER%"
 set "PUB_CACHE=%SCENTMATCH_WORK%\pub-cache"
 if not exist "%SCENTMATCH_FLUTTER%\bin\flutter.bat" (
-  echo Flutter SDK was not found in the workspace.
+  echo Install Flutter 3.32+ in C:\src\flutter or use flutter run from your terminal.
   goto failed
 )
 echo Preparing ScentMatch...
