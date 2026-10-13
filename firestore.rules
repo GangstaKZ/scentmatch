@@ -1,0 +1,54 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function signedIn() { return request.auth != null; }
+    function owns(uid) { return signedIn() && request.auth.uid == uid; }
+    function validQuiz(q) {
+      return q is map && (q.size() == 0 || (
+        q.keys().hasAll(['gender', 'age', 'family', 'budget', 'season', 'longevity', 'mood']) &&
+        q.keys().hasOnly(['gender', 'age', 'family', 'budget', 'season', 'longevity', 'mood']) &&
+        q.gender in ['female', 'male', 'unisex', 'any'] &&
+        q.age in ['18-24', '25-34', '35-44', '45+', 'any'] &&
+        q.family in ['woody', 'floral', 'fresh', 'amber', 'gourmand'] &&
+        q.budget in ['budget', 'mid', 'luxury'] &&
+        q.season in ['spring', 'summer', 'autumn', 'winter'] &&
+        q.longevity in ['light', 'medium', 'long'] &&
+        q.mood in ['day', 'evening', 'calm', 'bold', 'romantic']));
+    }
+    function validProfile(p) {
+      return p.keys().hasOnly(['name', 'email', 'quizAnswers', 'createdAt', 'isPro']) &&
+        p.name is string && p.name.size() <= 80 && p.email is string &&
+        p.email == request.auth.token.email && p.createdAt is string &&
+        p.isPro is bool && validQuiz(p.quizAnswers);
+    }
+    match /users/{uid} {
+      allow read: if owns(uid);
+      allow create: if owns(uid) && validProfile(request.resource.data) && request.resource.data.isPro == false;
+      allow update: if owns(uid) && validProfile(request.resource.data) &&
+        request.resource.data.diff(resource.data).affectedKeys().hasOnly(['name', 'email', 'quizAnswers']);
+      // Account deletion and subscription writes require trusted server code.
+      allow delete: if false;
+    }
+    match /perfumes/{id} { allow read: if signedIn(); allow write: if false; }
+    match /collections/{uid}/items/{perfumeId} {
+      allow read, delete: if owns(uid);
+      allow create, update: if owns(uid) && exists(/databases/$(database)/documents/perfumes/$(perfumeId)) &&
+        request.resource.data.keys().hasOnly(['perfumeId', 'rating', 'note', 'addedAt', 'type']) &&
+        request.resource.data.perfumeId == perfumeId && request.resource.data.rating is int &&
+        request.resource.data.rating >= 0 && request.resource.data.rating <= 5 &&
+        request.resource.data.note is string && request.resource.data.note.size() <= 2000 &&
+        request.resource.data.addedAt is string && request.resource.data.type in ['collection', 'wishlist'];
+    }
+    match /reviews/{perfumeId}/items/{reviewId} {
+      allow read: if signedIn();
+      allow create, update: if owns(reviewId) && exists(/databases/$(database)/documents/perfumes/$(perfumeId)) &&
+        request.resource.data.keys().hasOnly(['userId', 'text', 'rating', 'createdAt']) &&
+        request.resource.data.userId == request.auth.uid && request.resource.data.rating is int &&
+        request.resource.data.rating >= 1 && request.resource.data.rating <= 5 &&
+        request.resource.data.text is string && request.resource.data.text.size() > 0 &&
+        request.resource.data.text.size() <= 2000 && request.resource.data.createdAt is string;
+      allow delete: if owns(reviewId);
+    }
+    match /{document=**} { allow read, write: if false; }
+  }
+}

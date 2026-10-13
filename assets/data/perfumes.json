@@ -1,0 +1,761 @@
+[
+  {
+    "id": "chanel-no5",
+    "name": "N°5",
+    "brand": "Chanel",
+    "family": "floral",
+    "gender": "female",
+    "price": 16500,
+    "priceRange": "mid",
+    "longevity": 8,
+    "sillage": "strong",
+    "season": [
+      "spring",
+      "autumn",
+      "winter"
+    ],
+    "notes": {
+      "top": [
+        "aldehydes",
+        "neroli",
+        "ylang"
+      ],
+      "middle": [
+        "jasmine",
+        "rose",
+        "iris"
+      ],
+      "base": [
+        "sandalwood",
+        "vanilla",
+        "vetiver"
+      ]
+    },
+    "similarPerfumes": [
+      "dior-jadore",
+      "byredo-blanche",
+      "jo-malone-peony"
+    ],
+    "color": 4291867775,
+    "imageUrl": "",
+    "popularity": 100
+  },
+  {
+    "id": "chanel-coco",
+    "name": "Coco Mademoiselle",
+    "brand": "Chanel",
+    "family": "amber",
+    "gender": "female",
+    "price": 18000,
+    "priceRange": "mid",
+    "longevity": 9,
+    "sillage": "strong",
+    "season": [
+      "spring",
+      "autumn"
+    ],
+    "notes": {
+      "top": [
+        "orange",
+        "bergamot"
+      ],
+      "middle": [
+        "rose",
+        "jasmine"
+      ],
+      "base": [
+        "patchouli",
+        "vanilla",
+        "musk"
+      ]
+    },
+    "similarPerfumes": [
+      "tf-black",
+      "mfk-baccarat",
+      "ysl-libre"
+    ],
+    "color": 4293048228,
+    "imageUrl": "",
+    "popularity": 99
+  },
+  {
+    "id": "chanel-bleu",
+    "name": "Bleu de Chanel",
+    "brand": "Chanel",
+    "family": "woody",
+    "gender": "male",
+    "price": 15000,
+    "priceRange": "mid",
+    "longevity": 7,
+    "sillage": "moderate",
+    "season": [
+      "spring",
+      "summer",
+      "autumn"
+    ],
+    "notes": {
+      "top": [
+        "grapefruit",
+        "lemon",
+        "mint"
+      ],
+      "middle": [
+        "ginger",
+        "jasmine"
+      ],
+      "base": [
+        "incense",
+        "cedar",
+        "sandalwood"
+      ]
+    },
+    "similarPerfumes": [
+      "dior-homme",
+      "tf-oud",
+      "byredo-gypsy"
+    ],
+    "color": 4286554027,
+    "imageUrl": "",
+    "popularity": 98
+  },
+  {
+    "id": "dior-sauvage",
+    "name": "Sauvage",
+    "brand": "Dior",
+    "family": "fresh",
+    "gender": "male",
+    "price": 12500,
+    "priceRange": "mid",
+    "longevity": 8,
+    "sillage": "strong",
+    "season": [
+      "spring",
+      "summer",
+      "autumn"
+    ],
+    "notes": {
+      "top": [
+        "bergamot",
+        "pepper"
+      ],
+      "middle": [
+        "lavender",
+        "geranium"
+      ],
+      "base": [
+        "ambroxan",
+        "cedar"
+      ]
+    },
+    "similarPerfumes": [
+      "byredo-bal",
+      "mfk-aqua",
+      "versace-dylan"
+    ],
+    "color": 4287343542,
+    "imageUrl": "",
+    "popularity": 97
+  },
+  {
+    "id": "dior-jadore",
+    "name": "J’adore",
+    "brand": "Dior",
+    "family": "floral",
+    "gender": "female",
+    "price": 14000,
+    "priceRange": "mid",
+    "longevity": 6,
+    "sillage": "moderate",
+    "season": [
+      "spring",
+      "summer"
+    ],
+    "notes": {
+      "top": [
+        "pear",
+        "bergamot"
+      ],
+      "middle": [
+        "jasmine",
+        "rose",
+        "ylang"
+      ],
+      "base": [
+        "musk",
+        "vanilla"
+      ]
+    },
+    "similarPerfumes": [
+      "chanel-no5",
+      "byredo-blanche",
+      "jo-malone-peony"
+    ],
+    "color": 4292525177,
+    "imageUrl": "",
+    "popularity": 96
+  },
+  {
+    "id": "dior-homme",
+    "name": "Dior Homme Intense",
+    "brand": "Dior",
+    "family": "woody",
+    "gender": "male",
+    "price": 16000,
+    "priceRange": "mid",
+    "longevity": 9,
+    "sillage": "strong",
+    "season": [
+      "autumn",
+      "winter"
+    ],
+    "notes": {
+      "top": [
+        "lavender"
+      ],
+      "middle": [
+        "iris",
+        "ambrette"
+      ],
+      "base": [
+        "cedar",
+        "vetiver"
+      ]
+    },
+    "similarPerfumes": [
+      "chanel-bleu",
+      "tf-oud",
+      "byredo-gypsy"
+    ],
+    "color": 4290220914,
+    "imageUrl": "",
+    "popularity": 95
+  },
+  {
+    "id": "tf-tobacco",
+    "name": "Tobacco Vanille",
+    "brand": "Tom Ford",
+    "family": "gourmand",
+    "gender": "unisex",
+    "price": 28000,
+    "priceRange": "luxury",
+    "longevity": 10,
+    "sillage": "strong",
+    "season": [
+      "autumn",
+      "winter"
+    ],
+    "notes": {
+      "top": [
+        "tobacco",
+        "spices"
+      ],
+      "middle": [
+        "vanilla",
+        "cacao"
+      ],
+      "base": [
+        "dried-fruit",
+        "woods"
+      ]
+    },
+    "similarPerfumes": [],
+    "color": 4289822036,
+    "imageUrl": "",
+    "popularity": 94
+  },
+  {
+    "id": "tf-oud",
+    "name": "Oud Wood",
+    "brand": "Tom Ford",
+    "family": "woody",
+    "gender": "unisex",
+    "price": 30000,
+    "priceRange": "luxury",
+    "longevity": 7,
+    "sillage": "moderate",
+    "season": [
+      "autumn",
+      "winter"
+    ],
+    "notes": {
+      "top": [
+        "cardamom",
+        "rosewood"
+      ],
+      "middle": [
+        "oud",
+        "sandalwood",
+        "vetiver"
+      ],
+      "base": [
+        "tonka",
+        "amber",
+        "vanilla"
+      ]
+    },
+    "similarPerfumes": [
+      "chanel-bleu",
+      "dior-homme",
+      "byredo-gypsy"
+    ],
+    "color": 4287789158,
+    "imageUrl": "",
+    "popularity": 93
+  },
+  {
+    "id": "tf-black",
+    "name": "Black Orchid",
+    "brand": "Tom Ford",
+    "family": "amber",
+    "gender": "unisex",
+    "price": 17000,
+    "priceRange": "mid",
+    "longevity": 10,
+    "sillage": "strong",
+    "season": [
+      "autumn",
+      "winter"
+    ],
+    "notes": {
+      "top": [
+        "truffle",
+        "bergamot"
+      ],
+      "middle": [
+        "orchid",
+        "spices"
+      ],
+      "base": [
+        "patchouli",
+        "incense",
+        "vanilla"
+      ]
+    },
+    "similarPerfumes": [
+      "chanel-coco",
+      "mfk-baccarat",
+      "ysl-libre"
+    ],
+    "color": 4288578459,
+    "imageUrl": "",
+    "popularity": 92
+  },
+  {
+    "id": "byredo-gypsy",
+    "name": "Gypsy Water",
+    "brand": "Byredo",
+    "family": "woody",
+    "gender": "unisex",
+    "price": 23000,
+    "priceRange": "luxury",
+    "longevity": 5,
+    "sillage": "moderate",
+    "season": [
+      "spring",
+      "summer",
+      "autumn"
+    ],
+    "notes": {
+      "top": [
+        "juniper",
+        "lemon",
+        "pepper"
+      ],
+      "middle": [
+        "incense",
+        "pine",
+        "iris"
+      ],
+      "base": [
+        "sandalwood",
+        "vanilla",
+        "amber"
+      ]
+    },
+    "similarPerfumes": [
+      "chanel-bleu",
+      "dior-homme",
+      "tf-oud"
+    ],
+    "color": 4290165657,
+    "imageUrl": "",
+    "popularity": 91
+  },
+  {
+    "id": "byredo-blanche",
+    "name": "Blanche",
+    "brand": "Byredo",
+    "family": "floral",
+    "gender": "unisex",
+    "price": 22000,
+    "priceRange": "luxury",
+    "longevity": 5,
+    "sillage": "moderate",
+    "season": [
+      "spring",
+      "summer"
+    ],
+    "notes": {
+      "top": [
+        "aldehydes",
+        "rose"
+      ],
+      "middle": [
+        "violet",
+        "peony"
+      ],
+      "base": [
+        "musk",
+        "sandalwood"
+      ]
+    },
+    "similarPerfumes": [
+      "chanel-no5",
+      "dior-jadore",
+      "jo-malone-peony"
+    ],
+    "color": 4292270290,
+    "imageUrl": "",
+    "popularity": 90
+  },
+  {
+    "id": "byredo-bal",
+    "name": "Bal d’Afrique",
+    "brand": "Byredo",
+    "family": "fresh",
+    "gender": "unisex",
+    "price": 24500,
+    "priceRange": "luxury",
+    "longevity": 6,
+    "sillage": "moderate",
+    "season": [
+      "spring",
+      "summer"
+    ],
+    "notes": {
+      "top": [
+        "bergamot",
+        "lemon",
+        "neroli"
+      ],
+      "middle": [
+        "violet",
+        "jasmine"
+      ],
+      "base": [
+        "vetiver",
+        "amber",
+        "musk"
+      ]
+    },
+    "similarPerfumes": [
+      "dior-sauvage",
+      "mfk-aqua",
+      "versace-dylan"
+    ],
+    "color": 4292723335,
+    "imageUrl": "",
+    "popularity": 89
+  },
+  {
+    "id": "mfk-baccarat",
+    "name": "Baccarat Rouge 540",
+    "brand": "Maison Francis Kurkdjian",
+    "family": "amber",
+    "gender": "unisex",
+    "price": 32000,
+    "priceRange": "luxury",
+    "longevity": 10,
+    "sillage": "strong",
+    "season": [
+      "autumn",
+      "winter"
+    ],
+    "notes": {
+      "top": [
+        "saffron",
+        "jasmine"
+      ],
+      "middle": [
+        "amber",
+        "ambroxan"
+      ],
+      "base": [
+        "cedar",
+        "fir"
+      ]
+    },
+    "similarPerfumes": [
+      "chanel-coco",
+      "tf-black",
+      "ysl-libre"
+    ],
+    "color": 4291402371,
+    "imageUrl": "",
+    "popularity": 88
+  },
+  {
+    "id": "mfk-aqua",
+    "name": "Aqua Universalis",
+    "brand": "Maison Francis Kurkdjian",
+    "family": "fresh",
+    "gender": "unisex",
+    "price": 24000,
+    "priceRange": "luxury",
+    "longevity": 4,
+    "sillage": "moderate",
+    "season": [
+      "spring",
+      "summer"
+    ],
+    "notes": {
+      "top": [
+        "lemon",
+        "bergamot"
+      ],
+      "middle": [
+        "lily",
+        "orange-blossom"
+      ],
+      "base": [
+        "musk",
+        "woods"
+      ]
+    },
+    "similarPerfumes": [
+      "dior-sauvage",
+      "byredo-bal",
+      "versace-dylan"
+    ],
+    "color": 4291417799,
+    "imageUrl": "",
+    "popularity": 87
+  },
+  {
+    "id": "le-labo-santal",
+    "name": "Santal 33",
+    "brand": "Le Labo",
+    "family": "woody",
+    "gender": "unisex",
+    "price": 28500,
+    "priceRange": "luxury",
+    "longevity": 8,
+    "sillage": "strong",
+    "season": [
+      "spring",
+      "autumn"
+    ],
+    "notes": {
+      "top": [
+        "cardamom",
+        "violet"
+      ],
+      "middle": [
+        "iris",
+        "leather"
+      ],
+      "base": [
+        "sandalwood",
+        "cedar",
+        "musk"
+      ]
+    },
+    "similarPerfumes": [
+      "chanel-bleu",
+      "dior-homme",
+      "tf-oud"
+    ],
+    "color": 4290093437,
+    "imageUrl": "",
+    "popularity": 86
+  },
+  {
+    "id": "diptyque-philosykos",
+    "name": "Philosykos",
+    "brand": "Diptyque",
+    "family": "woody",
+    "gender": "unisex",
+    "price": 17000,
+    "priceRange": "mid",
+    "longevity": 5,
+    "sillage": "moderate",
+    "season": [
+      "spring",
+      "summer"
+    ],
+    "notes": {
+      "top": [
+        "fig-leaf",
+        "fig"
+      ],
+      "middle": [
+        "green-notes",
+        "coconut"
+      ],
+      "base": [
+        "fig-tree",
+        "cedar"
+      ]
+    },
+    "similarPerfumes": [
+      "chanel-bleu",
+      "dior-homme",
+      "tf-oud"
+    ],
+    "color": 4289510289,
+    "imageUrl": "",
+    "popularity": 85
+  },
+  {
+    "id": "jo-malone-peony",
+    "name": "Peony & Blush Suede",
+    "brand": "Jo Malone London",
+    "family": "floral",
+    "gender": "female",
+    "price": 14500,
+    "priceRange": "mid",
+    "longevity": 3,
+    "sillage": "moderate",
+    "season": [
+      "spring",
+      "summer"
+    ],
+    "notes": {
+      "top": [
+        "apple"
+      ],
+      "middle": [
+        "peony",
+        "rose",
+        "jasmine"
+      ],
+      "base": [
+        "suede"
+      ]
+    },
+    "similarPerfumes": [
+      "chanel-no5",
+      "dior-jadore",
+      "byredo-blanche"
+    ],
+    "color": 4292060084,
+    "imageUrl": "",
+    "popularity": 84
+  },
+  {
+    "id": "ysl-libre",
+    "name": "Libre",
+    "brand": "Yves Saint Laurent",
+    "family": "amber",
+    "gender": "female",
+    "price": 13000,
+    "priceRange": "mid",
+    "longevity": 8,
+    "sillage": "strong",
+    "season": [
+      "spring",
+      "autumn",
+      "winter"
+    ],
+    "notes": {
+      "top": [
+        "lavender",
+        "mandarin"
+      ],
+      "middle": [
+        "orange-blossom",
+        "jasmine"
+      ],
+      "base": [
+        "vanilla",
+        "musk",
+        "cedar"
+      ]
+    },
+    "similarPerfumes": [
+      "chanel-coco",
+      "tf-black",
+      "mfk-baccarat"
+    ],
+    "color": 4292918157,
+    "imageUrl": "",
+    "popularity": 83
+  },
+  {
+    "id": "versace-dylan",
+    "name": "Dylan Blue",
+    "brand": "Versace",
+    "family": "fresh",
+    "gender": "male",
+    "price": 8500,
+    "priceRange": "budget",
+    "longevity": 7,
+    "sillage": "moderate",
+    "season": [
+      "spring",
+      "summer"
+    ],
+    "notes": {
+      "top": [
+        "bergamot",
+        "grapefruit"
+      ],
+      "middle": [
+        "violet",
+        "pepper"
+      ],
+      "base": [
+        "musk",
+        "incense",
+        "tonka"
+      ]
+    },
+    "similarPerfumes": [
+      "dior-sauvage",
+      "byredo-bal",
+      "mfk-aqua"
+    ],
+    "color": 4287801281,
+    "imageUrl": "",
+    "popularity": 82
+  },
+  {
+    "id": "montblanc-explorer",
+    "name": "Explorer",
+    "brand": "Montblanc",
+    "family": "woody",
+    "gender": "male",
+    "price": 7500,
+    "priceRange": "budget",
+    "longevity": 6,
+    "sillage": "moderate",
+    "season": [
+      "spring",
+      "summer",
+      "autumn"
+    ],
+    "notes": {
+      "top": [
+        "bergamot",
+        "pepper"
+      ],
+      "middle": [
+        "vetiver",
+        "leather"
+      ],
+      "base": [
+        "patchouli",
+        "ambroxan",
+        "cacao"
+      ]
+    },
+    "similarPerfumes": [
+      "chanel-bleu",
+      "dior-homme",
+      "tf-oud"
+    ],
+    "color": 4290031251,
+    "imageUrl": "",
+    "popularity": 81
+  }
+]
